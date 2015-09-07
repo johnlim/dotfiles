@@ -27,3 +27,15 @@ colorscheme distinguished
 set nu "Show line numbers
 
 inoremap jj <Esc>
+
+" Case-insensitive searching.
+set ignorecase
+"
+" With both ignorecase and smartcase turned on, a search is case-insensitive
+" if you enter the search string in ALL lower case.
+" If your search string has one or more characters in upper case,
+" it will assume that you want a case-sensitive search.
+set smartcase
+"
+" Incremental searching
+set incsearch
