@@ -39,3 +39,8 @@ set smartcase
 "
 " Incremental searching
 set incsearch
+
+"Indent without tabs
+set expandtab
+set shiftwidth=2
+set softtabstop=2
