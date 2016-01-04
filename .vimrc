@@ -6,13 +6,13 @@ call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
-Bundle 'jelera/vim-javascript-syntax'
-Bundle 'pangloss/vim-javascript'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'Raimondi/delimitMate'
-Bundle 'Lokaltog/vim-distinguished'
-Bundle 'johnlim/vim-groovy'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'Raimondi/delimitMate'
+Plugin 'Lokaltog/vim-distinguished'
+Plugin 'johnlim/vim-groovy'
 
 call vundle#end() "required
 filetype plugin indent on "required
