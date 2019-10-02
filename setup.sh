@@ -8,3 +8,4 @@ vim +PluginInstall +qall
 
 cp ~/git/dotfiles/.vimrc ~/.ideavimrc
 
+ln -s ~/git/dotfiles/.inputrc ~/.inputrc 
